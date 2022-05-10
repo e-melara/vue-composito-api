@@ -4,7 +4,8 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/counter">Counter</router-link> |
     <router-link to="/users">Users</router-link> |
-    <router-link to="/search">Buscar</router-link>
+    <router-link to="/search">Buscar</router-link> |
+    <router-link to="/thano">Thano</router-link>
   </nav>
 
   <router-view v-slot="{ Component, route }">

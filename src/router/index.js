@@ -42,6 +42,12 @@ const routes = [
         /* webpackChunkName: "search-pokemon-view" */ "../views/Pokemon.vue"
       ),
   },
+  {
+    path: "/thano",
+    name: "lista-thano",
+    component: () =>
+      import(/* webpackChunkName: "lista-thano" */ "../views/TodoView.vue"),
+  },
 ];
 
 const router = createRouter({
