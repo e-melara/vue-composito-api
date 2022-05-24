@@ -48,6 +48,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "lista-thano" */ "../views/TodoView.vue"),
   },
+  {
+    path: "/slot",
+    name: "lista-slot",
+    component: () =>
+      import(/* webpackChunkName: "lista-slot" */ "../views/CustomSlot.vue"),
+  },
 ];
 
 const router = createRouter({
